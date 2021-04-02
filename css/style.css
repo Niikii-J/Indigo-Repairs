@@ -735,3 +735,22 @@ button.main_bt a:hover {
 .footer_menu {
   padding-right: 10px;
 }
+
+.ico-circle {
+  height: 40px;
+  width: 40px;
+  font-size: 1.7rem;
+  border-radius: 50%;
+  line-height: 1.4;
+  margin: 10px 15px;
+  background-color: white;
+  box-shadow: 0 0 0 3px #2b53a8;
+  transition: all 500ms ease;
+}
+
+.socials .ico-circle:hover {
+  background-color: #2b53a8;
+  color: #fff;
+  box-shadow: 0 0 0 3px #e3c5ff;
+  transition: all 500ms ease;
+}
