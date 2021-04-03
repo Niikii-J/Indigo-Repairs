@@ -394,6 +394,7 @@ button.btn.btn-primary:focus {
   text-align: center;
   margin-top: 40px;
 }
+
 .powerful_text {
   width: 100%;
   float: left;
@@ -406,9 +407,13 @@ button.btn.btn-primary:focus {
   width: 100%;
   float: left;
   text-align: center;
-  margin-top: 20px;
-  color: #000;
+  margin: 20px 0;
+  color: #05265a;
+  font-size: 25px;
+  font-weight: bold;
 }
+
+
 
 .making_tetx {
   width: 100%;
@@ -528,18 +533,17 @@ button.btn.btn-primary:focus {
   border-radius: 20px;
   border: 2px solid #2b53a8;
   padding: 10px;
-  min-height: 400px;
+  min-height: 420px;
 }
 .about_inner:hover {
   width: 100%;
   float: right;
   margin: 14px;
   background-color: #2b53a8;
-  color: #fff;
   border-radius: 20px;
   border: 6px solid #8db0fb;
   box-shadow: 0px 0px 8px 0px;
-  min-height: 400px;
+  min-height: 420px;
 }
 
 .justo_text {
