@@ -562,7 +562,8 @@ button.btn.btn-primary:focus {
   border-radius: 20px;
   border: 2px solid #2b53a8;
   padding: 10px;
-  min-height: 420px;
+  min-height: 450px;
+  min-width: 450px;
 }
 
 .about_inner:hover {
@@ -574,7 +575,8 @@ button.btn.btn-primary:focus {
   border: 6px solid #8db0fb;
   -webkit-box-shadow: 0px 0px 8px 0px;
           box-shadow: 0px 0px 8px 0px;
-  min-height: 420px;
+  min-height: 450px;
+  min-width: 450px;
 }
 
 .justo_text {
