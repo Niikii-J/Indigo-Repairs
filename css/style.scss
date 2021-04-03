@@ -522,12 +522,13 @@ button.btn.btn-primary:focus {
 
 .about_inner {
   width: 100%;
-  float: left;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  float: right;
+  margin: 14px;
   background-color: #ffffff;
   border-radius: 20px;
   border: 2px solid #2b53a8;
+  padding: 10px;
+  min-height: 400px;
 }
 .dedicated {
   width: 100%;
@@ -537,6 +538,7 @@ button.btn.btn-primary:focus {
   background-color: #2b53a8;
   border-radius: 20px;
   box-shadow: 0px 0px 8px 0px;
+  min-height: 400px;
 }
 
 .justo_text {
@@ -800,7 +802,7 @@ Social Media Icons
 .profile-img{
   border: 2px solid white;
   border-radius: 15px;
-  width: 90%;
+  width: 85%;
 }
 
 .socials {
