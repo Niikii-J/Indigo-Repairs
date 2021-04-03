@@ -89,6 +89,7 @@ $gradient      : #00B5F5;
 * {
   box-sizing: border-box !important;
   transition: ease all 0.5s;
+  font-family: "Raleway", sans-serif;
 }
 
 html {
@@ -98,7 +99,6 @@ html {
 body {
   color: #666666;
   font-size: 17px;
-  font-family: "Raleway", sans-serif;
   line-height: 1.80857;
   font-weight: normal;
   overflow-x: hidden;
@@ -160,16 +160,6 @@ h6 {
   box-sizing: border-box;
 }
 
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-  color: #212121;
-  text-decoration: none !important;
-  opacity: 1;
-}
 
 button:focus {
   outline: none;
@@ -787,22 +777,7 @@ button.main_bt a:hover {
   padding-top: 65px;
 }
 
-.menu {
-  width: 100%;
-  float: left;
-  margin-top: 15px;
-}
-.menu ul {
-  margin: 0px;
-  padding: 0px;
-}
 
-.menu ul li {
-  color: #fcfcfc;
-}
-.menu ul li a:hover {
-  color: #fcfcfc;
-}
 .useful_text {
   width: 100%;
   float: left;
@@ -816,31 +791,13 @@ button.main_bt a:hover {
   width: 33.33%;
 }
 
-.footer-logo {
-  margin-top: 70px;
-}
-
-.subsrcibe_bt {
-  border-top-right-radius: 30px !important;
-  border-bottom-right-radius: 30px !important;
-  color: #fff;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  background-color: #2b53a8;
-  padding: 15px 45px;
-  border: 0px;
-}
 
 .margin-top-30 {
   padding-top: 25px;
   width: 90%;
 }
 
-.icon_main {
-  width: 100%;
-  float: left;
-  text-align: center;
-}
+
 .menu_text {
   width: 20%;
   margin: 0 auto;
@@ -855,14 +812,7 @@ button.main_bt a:hover {
   padding-left: 6px;
   padding-right: 25px;
 }
-.copyright_main {
-  width: 100%;
-  float: left;
-  background-color: #2b53a8;
-  height: auto;
-  padding-bottom: 5px;
-  padding-top: 5px;
-}
+
 .copy_text {
   width: 100%;
   float: left;
@@ -877,15 +827,18 @@ button.main_bt a:hover {
 .footer_menu {
   padding-right: 10px;
 }
-/*
-Social Media Icons
-*/
+
+
 
 .profile-img{
   border: 2px solid white;
   border-radius: 15px;
   width: 85%;
 }
+
+/*
+Social Media Icons
+*/
 
 .socials {
   padding: 2rem 0;
