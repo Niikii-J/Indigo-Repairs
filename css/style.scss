@@ -292,7 +292,7 @@ ol {
 .taital_main {
   width: 100%;
   float: left;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .get_bg {
   background-color: #2b53a8;
@@ -501,7 +501,7 @@ button.btn.btn-primary:focus {
   padding: 15px 35px 0px 35px;
   margin-top: 31px;
   border-radius: 20px;
-  border: 6px solid #8db1fd;
+  border: 6px dotted #8db1fd;
 }
 .dolar_tetx {
   width: 100%;
@@ -518,7 +518,7 @@ button.btn.btn-primary:focus {
   left: -245px;
   position: relative;
   top: -160px;
-}
+  }
 
 .about_inner {
   width: 100%;
@@ -796,6 +796,12 @@ button.main_bt a:hover {
 /*
 Social Media Icons
 */
+
+.profile-img{
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 90%;
+}
 
 .socials {
   padding: 2rem 0;
