@@ -557,7 +557,7 @@ button.btn.btn-primary:focus {
 .about_inner {
   width: 100%;
   float: right;
-  margin: 14px;
+  margin: 20px;
   background-color: #fff;
   border-radius: 20px;
   border: 2px solid #2b53a8;
@@ -569,7 +569,7 @@ button.btn.btn-primary:focus {
 .about_inner:hover {
   width: 100%;
   float: right;
-  margin: 14px;
+  margin: 20px;
   background-color: #2b53a8;
   border-radius: 20px;
   border: 6px solid #8db0fb;
