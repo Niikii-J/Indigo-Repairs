@@ -10,12 +10,6 @@
 @import url(jquery-ui.css);
 @import url(nice-select.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-.social-container {
-  width: 400px;
-  margin: 40vh auto;
-  text-align: center;
-}
-
 .social-icons {
   padding: 0;
   list-style: none;
