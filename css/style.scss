@@ -433,7 +433,10 @@ button.btn.btn-primary:focus {
   background-color: #ffffff;
   border-radius: 30px;
   padding: 20px;
-  box-shadow: 0px 0px 8px 0px;
+  box-shadow: 0px 0px 6px 0px;
+  i, h2 {
+    color: #2b53a8;
+  }
 }
 
 .power:hover {
@@ -442,7 +445,10 @@ button.btn.btn-primary:focus {
   background-color: #2b53a8;
   border-radius: 30px;
   padding: 20px;
-  box-shadow: 0px 0px 8px 0px;
+  box-shadow: 0px 0px 6px 0px;
+  i, h2 {
+    color: white;
+  }
 }
 
 .icon {
