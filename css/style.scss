@@ -205,6 +205,16 @@ a {
 
 //nav bar//
 
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: inline;
+}
+
+
 .hoverable{
   display:inline-block;
   backface-visibility: hidden;
