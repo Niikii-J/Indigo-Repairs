@@ -22,12 +22,12 @@ $bluefade      : #0043E0;
 $gradient      : #00B5F5;
 
 :root {
-  --background: #E5FFB3;
-  --background-accent: #DBF8A3;
-  --background-accent-2: #BDE66E;
-  --light: #92DE34;
-  --dark: #69BC22;
-  --text: #025600;
+  --background: #c8effd;
+  --background-accent: #9ae0fa;
+  --background-accent-2: #43cdff;
+  --light: #00B5F5;
+  --dark: #098ffc;
+  --text: #ffffff;
 }
 
 @mixin transformScale($size: 1) {
@@ -134,6 +134,7 @@ h6 {
 
 h1 {
   font-size: 48px;
+  margin-top: 40px;
 }
 
 h2 {
