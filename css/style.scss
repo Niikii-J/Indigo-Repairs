@@ -21,6 +21,15 @@ $accent        : #002A8F;
 $bluefade      : #0043E0;
 $gradient      : #00B5F5;
 
+:root {
+  --background: #E5FFB3;
+  --background-accent: #DBF8A3;
+  --background-accent-2: #BDE66E;
+  --light: #92DE34;
+  --dark: #69BC22;
+  --text: #025600;
+}
+
 @mixin transformScale($size: 1) {
     transform: scale($size);
     -ms-transform: scale($size);
@@ -84,6 +93,7 @@ $gradient      : #00B5F5;
   box-sizing: border-box !important;
   transition: ease all 0.5s;
   font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
 }
 
 html {
@@ -154,9 +164,47 @@ h6 {
   box-sizing: border-box;
 }
 
-
-button:focus {
+button {
+  display: block;
+  cursor: pointer;
   outline: none;
+  border: none;
+  background-color: var(--light);
+  width: 400px;
+  height: 70px;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text);
+  background-size: 100% 100%;
+  box-shadow: 0 0 0 7px var(--light) inset;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  background-image: linear-gradient(
+    145deg,
+    transparent 10%,
+    var(--dark) 10% 20%,
+    transparent 20% 30%,
+    var(--dark) 30% 40%,
+    transparent 40% 50%,
+    var(--dark) 50% 60%,
+    transparent 60% 70%,
+    var(--dark) 70% 80%,
+    transparent 80% 90%,
+    var(--dark) 90% 100%
+  );
+  animation: background 3s linear infinite;
+}
+
+@keyframes background {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
 }
 
 ul,
@@ -367,15 +415,7 @@ ol {
   float: left;
   margin-top: 10px;
 }
-.get_bg {
-  background-color: #2b53a8;
-  padding: 0.5rem 1rem;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  border-radius: 0.3rem;
-  padding: 11px 16px 14px 15px;
-  margin-right: 25px;
-}
+
 
 a:hover {
   color: #fff;
@@ -392,12 +432,6 @@ a:hover {
   border-color: #171a1d;
 }
 
-button.btn.btn-primary,
-button.btn.btn-primary:hover,
-button.btn.btn-primary:focus {
-  background: #136af8;
-  padding: 10 40px;
-}
 
 .search_bt {
   border-top-right-radius: 30px !important;
@@ -726,25 +760,6 @@ button.btn.btn-primary:focus {
   padding: 0px;
 }
 
-button.main_bt {
-  background: #ce4109;
-  border: none;
-  color: #fff;
-  width: 150px;
-  height: 50px;
-  border-radius: 5px;
-  font-size: 22px;
-}
-
-button.main_bt a:hover {
-  color: #ffffff;
-}
-
-.send_btn {
-  width: 30%;
-  margin: 0 auto;
-  text-align: center;
-}
 
 .contact_section_3 {
   width: 100%;
