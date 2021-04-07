@@ -40,14 +40,11 @@ $gradient      : #00B5F5;
 .social-icons {
   padding: 0;
   list-style: none;
-  margin: 1em;
-
   li {
       display: inline-block;
       margin: 0.15em;
       position: relative;
       font-size: 1.2em;
-
   }
 
   i {
@@ -787,9 +784,8 @@ a:hover {
   padding: 20px 10px;
 }
 
-.londan_text {
-  padding-left: 20px;
-}
+
+
 .map_main {
   display: block;
   width: 100%;
@@ -809,7 +805,6 @@ a:hover {
   color: white;
 }
 
-
 .useful_text {
   width: 100%;
   float: left;
@@ -818,89 +813,21 @@ a:hover {
   font-weight: bold;
   margin-top: 15px;
 }
-.menu.multi_column_menu li {
-  float: left;
-  width: 33.33%;
-}
 
-
-.margin-top-30 {
-  padding-top: 25px;
-  width: 90%;
-}
 
 .menu{
   color: rgba(255, 255, 255, 0.863);
 }
 
 
-.menu_text {
-  width: 20%;
-  margin: 0 auto;
-  text-align: center;
-}
-.menu_text ul {
-  margin: 0px;
-  padding: 0px;
-}
-.menu_text li {
-  float: left;
-  padding-left: 6px;
-  padding-right: 25px;
-}
-
-.copy_text {
-  width: 100%;
-  float: left;
-  text-align: center;
-  color: #ffffff;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-.copy_text a:hover {
-  color: #000;
-}
 .footer_menu {
   padding-right: 10px;
 }
-
-
 
 .profile-img{
   border: 2px solid white;
   border-radius: 15px;
   width: 85%;
-}
-
-/*
-Social Media Icons
-*/
-
-.socials {
-  padding: 2rem 0;
-}
-
-.socials ul li {
-  display: inline-block;
-}
-
-.socials .ico-circle {
-  height: 40px;
-  width: 40px;
-  font-size: 1.7rem;
-  border-radius: 50%;
-  line-height: 1.4;
-  margin: 10px 15px;
-  background-color: white;
-  box-shadow: 0 0 0 3px #52059b;
-  transition: all 500ms ease;
-}
-
-.socials .ico-circle:hover {
-  background-color: #52059b;
-  color: #fff;
-  box-shadow: 0 0 0 3px #e3c5ff;
-  transition: all 500ms ease;
 }
 
 // particles
