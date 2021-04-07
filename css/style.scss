@@ -772,19 +772,16 @@ a:hover {
 }
 
 .contact_taital {
-  width: 100%;
+  width: 90%;
   float: left;
-  padding-left: 100px;
-  padding-right: 100px;
-  margin-top: 100px;
 }
 
 .web {
-  background-color: #ffffff;
-  border-radius: 30px;
+  background-color: #ffffff5e;
+  border-radius: 20px;
+  border: 1px solid white;
   height: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 10px;
 }
 
 .londan_text {
@@ -803,6 +800,10 @@ a:hover {
   float: left;
   padding-bottom: 20px;
   padding-top: 65px;
+}
+
+.contact-list{
+  color: white;
 }
 
 
