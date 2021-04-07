@@ -298,13 +298,6 @@ a:hover {
   color: #fff;
 }
 
-
-.form-control:not(:last-child) {
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
-  padding-left: 25px;
-}
-
 .choose_section {
   width: 100%;
   float: left;
@@ -334,7 +327,6 @@ a:hover {
   float: left;
 }
 
-
 .power {
   width: 100%;
   float: left;
@@ -360,14 +352,6 @@ a:hover {
   margin-top: 40px;
 }
 
-.powerful_text {
-  width: 100%;
-  float: left;
-  text-align: center;
-  margin-top: 20px;
-  color: #ffffff;
-}
-
 .totaly_text {
   width: 100%;
   float: left;
@@ -376,48 +360,6 @@ a:hover {
   color: #05265a;
   font-size: 25px;
   font-weight: bold;
-}
-
-
-
-.making_tetx {
-  width: 100%;
-  float: left;
-  text-align: center;
-  margin-top: 20px;
-  color: #ffffff;
-  margin-left: 0;
-}
-
-.making {
-  width: 100%;
-  float: left;
-  text-align: center;
-  margin-top: 20px;
-  color: #000;
-  margin-left: 0;
-}
-
-.btn_main {
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
-}
-.read_bt {
-  height: 50px;
-  width: 100%;
-  float: left;
-  border-radius: 11px;
-  border: 0px;
-  color: #ffffff;
-  background-color: #000;
-  margin-top: 30px;
-  font-size: 17px;
-  margin-bottom: 30px;
-}
-
-.read_bt a:hover {
-  color: #ffffff;
 }
 
 .about_main {
@@ -471,6 +413,7 @@ a:hover {
   border-radius: 20px;
   border: 6px dotted #8db1fd;
 }
+
 .dolar_tetx {
   width: 100%;
   float: left;
@@ -480,13 +423,6 @@ a:hover {
   color: #000;
   font-weight: 500;
 }
-
-.right_aero {
-  max-width: 100%;
-  left: -245px;
-  position: relative;
-  top: -160px;
-  }
 
 .about_inner {
   width: 100%;
