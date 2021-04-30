@@ -258,7 +258,7 @@ nav {
   display: flex;
   height: 80px;
   width: 100%;
-  background: #1b1b1b;
+  background: #06122bc7;
   align-items: center;
   justify-content: space-between;
   padding: 0 50px 0 100px;
@@ -675,7 +675,7 @@ a:hover {
 }
 
 .profile-img{
-  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, 0.562);
   border-radius: 15px;
   width: 85%;
 }
