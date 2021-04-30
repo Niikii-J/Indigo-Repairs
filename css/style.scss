@@ -371,8 +371,7 @@ input[type="checkbox"] {
 //sticky
 
 .sticky {
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 0;
 }
 
