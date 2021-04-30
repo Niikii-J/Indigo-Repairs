@@ -103,6 +103,7 @@ body {
   line-height: 1.80857;
   font-weight: normal;
   overflow-x: hidden;
+  height: 100%;
 }
 
 a {
@@ -252,6 +253,7 @@ a {
 //nav bar//
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
+
 nav {
   display: flex;
   height: 80px;
@@ -366,7 +368,13 @@ input[type="checkbox"] {
   font-weight: 700;
 }
 
+//sticky
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
 
 //nav end
 
@@ -680,7 +688,6 @@ a:hover {
   height: auto;
   margin-top: 70px;
   position: relative;
-  border-radius: 25px 25px 0 0;
 }
 
 .foot-space{
