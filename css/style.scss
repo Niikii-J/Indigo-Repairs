@@ -688,10 +688,12 @@ a:hover {
   height: auto;
   margin-top: 70px;
   position: relative;
-  h1{
-    color: white;
-    text-align:center;
-  }
+}
+
+.c-head{
+  color: white;
+  text-align: center;
+  margin: 0 0 70px 0;
 }
 
 .foot-space{
