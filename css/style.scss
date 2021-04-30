@@ -522,9 +522,12 @@ a:hover {
 }
 
 .images {
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 300px;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 .right_section_main {
@@ -729,4 +732,8 @@ a:hover {
     margin: 10px 0 20px 0;
     font-size: 30px;
     
+}
+
+.cntr-div{
+  display: inline-block;
 }
