@@ -256,12 +256,13 @@ a {
 
 nav {
   display: flex;
-  height: 80px;
+  height: 60px;
   width: 100%;
-  background: #06122bc7;
+  background: #02153dc7;
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-evenly;
   padding: 0 50px 0 100px;
+  flex-direction: row;
   flex-wrap: wrap;
   z-index: 1;
 }
