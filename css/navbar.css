@@ -7,7 +7,7 @@ nav {
   height: 60px;
   width: 100%;
   background: #02153dc7;
-  align-items: center;
+  align-items: left;
   justify-content:space-evenly;
   padding: 0 50px 0 100px;
   flex-direction: row;
@@ -107,7 +107,7 @@ input[type="checkbox"] {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
   z-index: -1;
   width: 100%;
   padding: 0 30px;
